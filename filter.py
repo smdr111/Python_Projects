@@ -187,5 +187,5 @@ def main():
 
     save_image(image, args.output)
 
-
-main()
+if __name__ == "__main__":
+    main()
